@@ -23,9 +23,6 @@ function Pixel() {
     setColor('black')
   }
 
-  //  useEffect(() => {
-  //   setInterval(2)
-  //  })
 
   return (
     <div
@@ -34,8 +31,8 @@ function Pixel() {
       onDragEnter={handleMouseDrag}
       onContextMenu={handleRightClick}
       style={{
-        height: '50px',
-        width: '50px',
+        height: '40px',
+        width: '40px',
         backgroundColor: color,
       }}
     ></div>
